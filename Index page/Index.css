@@ -1,0 +1,153 @@
+html, body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(241, 246, 251);
+}
+
+/* Logo and main content container */
+.main-container {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+/* Logo container */
+.logo-container {
+  align-self: flex-start;
+  width: 100%;
+  margin-top: 2.5%;
+  margin-left: 2.5%;
+  box-sizing: border-box;
+}
+
+.logo-img{
+  width: 10%;
+  margin-top: -20%;
+}
+
+/* Main section background */
+.main-sec-background {
+  text-align: center;
+  align-items: center;
+}
+
+/* Container for text and image */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin-left: 10%;
+}
+
+/* Text section */
+.text-section {
+  flex: 1;
+  margin-right: 20px;
+  text-align: left;
+}
+
+/* Image section */
+.image-section {
+  max-width: 50%;
+  height: auto;
+}
+
+/* Text styling */
+.p-text {
+  font-size: 75px;
+  font-weight: 700;
+  margin-top: 1%;
+  margin-bottom: -1%;
+}
+
+/* Blue button styling */
+.blue-button {
+  background-color: #007DFF;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+/* Button text styling */
+.a-text {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+/* Button container */
+.button-head-sec {
+  margin-left: 10%;
+  margin-top: 2.5%;
+}
+
+/* Blue button hover effect */
+.blue-button:hover {
+  background-color: darkblue;
+}
+
+.line {
+  width: calc(100% - 40px); /* Subtract 20px from both ends */
+  height: 2.5px;
+  background-color: black;
+  margin-top: 10%;
+  margin-left: 20%;
+  margin-right: 20%; /* 20px spacing on both ends */
+}
+
+
+
+
+
+
+/* sec 2 */
+
+
+
+
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row-1-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.text-sec-2 {
+  margin-right: 20px;
+}
+
+.image-sec-2 {
+  max-width: 50%;
+  height: auto;
+}
+
+.image-sec-2-direct{
+  width: 40%;
+}
