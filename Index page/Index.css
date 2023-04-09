@@ -16,6 +16,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: rgb(241, 246, 251);
+  box-shadow: h-offset v-offset blur spread color;
 }
 
 /* Logo and main content container */
@@ -77,9 +78,17 @@ body {
   margin-bottom: -1%;
 }
 
+.p-text-heading {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  color: grey;
+}
+
 /* Blue button styling */
 .blue-button {
-  background-color: #007DFF;
+  /* background-color: #007DFF; */
   color: white;
   border: none;
   border-radius: 10px;
@@ -88,6 +97,13 @@ body {
   cursor: pointer;
   margin-top: 10px;
   font-size: 20px;
+  background: linear-gradient(to right, rgb(106, 225, 255), rgb(1, 116, 199));
+  box-shadow: h-offset v-offset blur spread color;
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.5);
+  background-color: #007DFF;
+  color: white;
+  border: none;
+  cursor: pointer;
 }
 
 /* Button text styling */
@@ -98,7 +114,6 @@ body {
 
 /* Button container */
 .button-head-sec {
-  margin-left: 10%;
   margin-top: 2.5%;
 }
 
@@ -121,10 +136,17 @@ body {
 
 
 
+
+
 /* sec 2 */
 
 
 
+
+.background-color-sec-2{
+  background-color: #007DFF;
+
+}
 
 .container-2 {
   display: flex;
