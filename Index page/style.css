@@ -102,3 +102,61 @@ html, body {
     .button-postion {
     text-align: center;
     }
+
+
+
+
+    /* servcies sections */
+
+
+    /* General styles */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    
+    /* Our Services Section styles */
+    .services-section {
+      background-color: white;
+      padding: 50px 0;
+    }
+    
+    /* Blue background styles */
+    .services-background {
+      background-color: #005bcd;
+      border-radius: 25px;
+      padding: 50px;
+      margin-right: 10%;
+      margin-left: 10%;
+    }
+    
+    /* Services content container styles */
+    .services-content {
+      background-color: #005bcd;
+      padding: 30px;
+      border-radius: 25px;
+    }
+    
+    /* Services row styles */
+    .services-row {
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    /* Services columns styles */
+    .services-column {
+      width: 45%;
+    }
+    
+    /* Service title styles */
+    .services-column h2 {
+      margin-bottom: 20px;
+      color: white;
+    }
+    
+    /* Service description styles */
+    .services-column p {
+      color: white;
+    }
+
+/* severice section */
