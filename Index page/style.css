@@ -57,7 +57,7 @@ html, body {
   
   /* Header text styles */
   .header-text-1 {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 500;
     margin: 0;
     text-align: left;
@@ -65,7 +65,7 @@ html, body {
   }
   
   .header-text-2 {
-    font-size: 65px;
+    font-size: 60px;
     font-weight: 900;
     margin: 0;
     color: white;
@@ -114,6 +114,16 @@ html, body {
       margin: 0;
       font-family: Arial, sans-serif;
     }
+
+    .h1-header-text{
+      text-align: center;
+    }
+
+    .severices-sec-h1-text{
+      color: #005bcd;
+      font-size: 50px;
+      font-weight: 900;
+    }
     
     /* Our Services Section styles */
     .services-section {
@@ -144,19 +154,197 @@ html, body {
     }
     
     /* Services columns styles */
-    .services-column {
-      width: 45%;
+    .services-column-1 {
+      width: 60%;
+    }
+
+    /* Services columns styles */
+    .services-column-2 {
+      width: 30%;
     }
     
     /* Service title styles */
-    .services-column h2 {
+    .services-column-1 h2 {
       margin-bottom: 20px;
       color: white;
     }
     
     /* Service description styles */
-    .services-column p {
+    .services-column-2 p {
       color: white;
     }
 
+    .services-column-text-p{
+      color: white;
+    }
+
+
+    .services-column-2-p{
+      color: white;
+    }
+
+    .services-column-2-h1{
+      color: white;
+    }
+
+    .li-text{
+      color: white;
+      padding-left: 30px;
+      background-image: url('small xpng.png');
+      background-repeat: no-repeat;
+      background-position: left center;
+      background-size: 20px; /* Adjust the size of the 'x' image */
+      margin-bottom: 10px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    
+
 /* severice section */
+
+
+
+/* Exaplaining The Services Section */
+  .sec-3-head-text{
+    text-align: center;
+  }
+
+  /* Solid line styles */
+.solid-line {
+  height: 5px;
+  background-color: #000; /* Change the color as needed */
+  margin-left: 35%;
+  margin-right: 35%;
+  text-align: center;
+  border-radius: 2px;
+}
+
+
+
+.sec-3-head-h3{
+  font-weight: 200;
+  font-size: 25px;
+}
+
+.sec-3-head-h1{
+  font-weight: 900;
+  font-size: 50px;
+  color: #005bcd;
+}
+
+.sec-3-head-h2{
+  font-weight: 400;
+  font-size: 30px;
+}
+  
+/* Exaplaining The Services Section */
+
+
+
+
+/* Services container styles */
+
+.services-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 50px 0;
+}
+
+.service-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blue-square {
+  background-color: blue;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.blue-square p {
+  margin: 0;
+}
+
+.bio-text {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
+
+.h1-sec-3-text{
+  font-size: 30px;
+  text-align: center;
+}
+
+
+.sec-3-icons{
+  width: 40%;
+}
+
+/* Services container styles */
+
+
+
+
+
+
+/* company story */
+
+.container-sec-4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 50px 0;
+}
+
+.text-column-sec-4 {
+  width: 50%;
+  text-align: center;
+}
+
+.images-column-sec-4 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.image-container-sec-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-1, .image-2 {
+  max-width: 200px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.h1-sec-4 {
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+.image-container-sec-4 .h1-sec-4 {
+  margin-top: 0;
+  text-align: center;
+}
+
+/* company story */
