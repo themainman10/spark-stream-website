@@ -1,0 +1,104 @@
+/* General styles */
+html, body {
+    overflow-x: hidden;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  /* Logo styles */
+  .logo-header {
+    width: 20%;
+  }
+  
+  /* Header styles */
+  .header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: -5%;
+    margin-bottom: -10%;
+  }
+  
+  /* Main content container styles */
+  .main-content {
+    display: flex;
+    padding: 10px;
+    height: calc(100vh - 10px);
+    align-items: center;
+  }
+  
+  /* Text content container styles */
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    margin-bottom: 20%;
+  }
+  
+  /* Image container styles */
+  .image {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 1;
+    width: 50%;
+  }
+  
+  /* Gradient background styles */
+  .gradient {
+    background: linear-gradient(190deg, #005bcd 0%, #005bcd 30%, #00dddd 80%, white 20%);
+    width: 100%;
+    height: 100vh;
+  }
+  
+  /* Header text styles */
+  .header-text-1 {
+    font-size: 60px;
+    font-weight: 500;
+    margin: 0;
+    text-align: left;
+    color: white;
+  }
+  
+  .header-text-2 {
+    font-size: 65px;
+    font-weight: 900;
+    margin: 0;
+    color: white;
+  }
+  
+  /* Header image styles */
+  .header-img {
+    width: 80%;
+    margin-bottom: 30%;
+  }
+  
+  /* Circular button styles */
+  .circular-button {
+    background-color: #005bcd;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 12px 24px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    /* Positioning for the circular button */
+    margin-top: 5%;
+    }
+
+    /* Circular button hover effect styles */
+    .circular-button:hover {
+    background-color: #0077dd;
+    transform: scale(1.1);
+    }
+
+    /* Centering the button within the container */
+    .button-postion {
+    text-align: center;
+    }
