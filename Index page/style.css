@@ -1,4 +1,6 @@
 /* General styles */
+
+/* header section */
 html, body {
     overflow-x: hidden;
   }
@@ -103,13 +105,75 @@ html, body {
     text-align: center;
     }
 
+    /* header section media queries */
+
+
+    /* Media queries */
+
+    @media screen and (max-width: 1200px) {
+      .header-text-1 { font-size: 45px; }
+      .header-text-2 { font-size: 55px; }
+    }
+
+    @media screen and (max-width: 1024px) {
+      .header-text-1 { font-size: 40px; }
+      .header-text-2 { font-size: 50px; }
+    }
+
+    @media screen and (max-width: 900px) {
+      .header-text-1 { font-size: 35px; }
+      .header-text-2 { font-size: 45px; }
+    }
+
+    @media screen and (max-width: 768px) {
+      .text, .image { width: 100%; }
+      .main-content { flex-direction: column; }
+      .header-text-1 { font-size: 30px; }
+      .header-text-2 { font-size: 40px; }
+      .header-img { width: 60%; margin-bottom: 20%; }
+    }
+
+    @media screen and (max-width: 600px) {
+      .header-text-1 { font-size: 25px; }
+      .header-text-2 { font-size: 35px; }
+      .header-img { width: 50%; margin-bottom: 10%; }
+    }
+
+    @media screen and (max-width: 480px) {
+      .header-text-1 { font-size: 20px; }
+      .header-text-2 { font-size: 30px; }
+      .header-img { width: 40%; margin-bottom: 5%; }
+    }
+
+    @media screen and (max-width: 320px) {
+      .header-text-1 { font-size: 16px; }
+      .header-text-2 { font-size: 24px; }
+      .header-img { width: 30%; margin-bottom: 5%; }
+    }
+    /* header section media queries */
+
+
+    /* header section */
+
+
+
+
+
+
 
 
 
     /* servcies sections */
 
 
+
     /* General styles */
+
+    html, body {
+      overflow-x: hidden;
+    }
+    
+
     body {
       margin: 0;
       font-family: Arial, sans-serif;
@@ -203,7 +267,51 @@ html, body {
     }
     
 
+    /* service section media queries */
+
+          /* Media queries */
+      @media screen and (max-width: 1200px) {
+        .severices-sec-h1-text { font-size: 45px; }
+      }
+
+      @media screen and (max-width: 1024px) {
+        .severices-sec-h1-text { font-size: 40px; }
+      }
+
+      @media screen and (max-width: 900px) {
+        .severices-sec-h1-text { font-size: 35px; }
+      }
+
+      @media screen and (max-width: 768px) {
+        .services-row { flex-direction: column; }
+        .services-column-1, .services-column-2 { width: 100%; }
+        .severices-sec-h1-text { font-size: 30px; }
+      }
+
+      @media screen and (max-width: 600px) {
+        .severices-sec-h1-text { font-size: 25px; }
+      }
+
+      @media screen and (max-width: 480px) {
+        .severices-sec-h1-text { font-size: 20px; }
+      }
+
+      @media screen and (max-width: 320px) {
+        .severices-sec-h1-text { font-size: 16px; }
+      }
+
+    /* service section media queries */
+
+
+
+
+
+
 /* severice section */
+
+
+
+
 
 
 
