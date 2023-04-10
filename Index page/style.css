@@ -314,12 +314,13 @@ html, body {
 }
 
 .text-column-sec-4 {
-  width: 50%;
-  text-align: center;
+  width: 40%;
+  text-align: left;
+  margin-left: 5%;
 }
 
 .images-column-sec-4 {
-  width: 50%;
+  width: 40%;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -345,6 +346,151 @@ html, body {
 .image-container-sec-4 .h1-sec-4 {
   margin-top: 0;
   text-align: center;
+  margin-left: 80%;
+  width: 40%;
 }
 
+.image-sec-4-1{
+  width: 200px;
+  height: 300px;
+  border-radius: 10px
+}
+
+.image-sec-4-2{
+  width: 200px;
+  height: 300px;
+  margin-left: 10%;
+  border-radius: 10px;
+  margin-top: 30%;
+
+}
+
+.sec-4-p-text{
+  font-size: 30px;
+}
+
+.sec-4-h1-text{
+  font-size: 50px;
+  color: #0077dd;
+}
+
+.sec-4-h1-text-2{
+  color: #005bcd;
+}
+
+.sec-4-h2-text{
+  margin-top: -7.5%;
+  color: #005bcd;
+}
 /* company story */
+
+
+
+
+/* Booking Section */
+
+.background-liner-gradeint-sec-5 {
+  background: linear-gradient(to right, #00dddd 40%, #005bcd 80%);
+  width: 100%;
+  height: auto;
+}
+
+.container-sec-5 {
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.row-sec-5 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.img-sec-5 {
+  width: 50%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+
+
+.text-sec-5 {
+  width: 50%;
+  margin-right: 10%;
+  color: white;
+  margin-bottom: 2.5%;
+}
+
+.sec-5-img{
+  width: 90%;
+  height: 750px;
+}
+
+.sec-5-img-headshot{
+  width: 30%;
+  border-radius: 100%;
+}
+
+.sec-5-img-5-postioning{
+  text-align: center;
+}
+
+.custom-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.custom-list li {
+  background-image: url('checkmark .png');
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position: 0 50%;
+  margin-top: 2%;
+  font-size: large;
+  padding-left: 30px; /* Adjust this value based on the size of your checkmark image */
+}
+/* Booking Section */
+
+
+
+
+
+
+
+
+
+
+/* footer section  */
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.icon {
+  width: 30px;
+  height: auto;
+}
+
+.copyright {
+  margin-top: 10px;
+}
+
+/* footert section  */
