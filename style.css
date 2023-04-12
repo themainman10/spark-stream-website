@@ -179,7 +179,7 @@ html, body {
   .header-text-1 { font-size: 20px; white-space: normal; margin-top: 20%; margin-bottom: 5%;}
   .header-text-2 { font-size: 30px; white-space: normal; margin-top: 2%; margin-bottom: 5%;}
   .circular-button { margin-top: 5%; margin-bottom: -60%; }
-  .header-img { width: 70%; margin-bottom: 5%; margin-top: -90%; align-items: center;}
+  .header-img { width: 70%; margin-bottom: 5%; margin-top: -80%; align-items: center;}
   .logo-header { width: 60%; }
 }
 
@@ -187,7 +187,7 @@ html, body {
   .header-text-1 { font-size: 20px; white-space: normal; margin-top: 40%; margin-bottom: 5%;}
   .header-text-2 { font-size: 30px; white-space: normal; margin-top: 2%; margin-bottom: 5%;}
   .circular-button { margin-top: 5%; margin-bottom: -100%; }
-  .header-img { width: 70%; margin-bottom: 40%; margin-top: -100%; align-items: center;}
+  .header-img { width: 70%; margin-bottom: 40%; margin-top: -70%; align-items: center;}
   .logo-header { width: 80%; }
 }
 /* header section media queries */
