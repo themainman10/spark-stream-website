@@ -727,7 +727,7 @@ html, body {
 
 .sec-5-img-headshot{
   width: 30%;
-  border-radius: 100%;
+  border-radius: 50%;
 }
 
 .sec-5-img-5-postioning{
@@ -739,7 +739,7 @@ html, body {
   padding-left: 0;
 }
 
-.custom-list li {
+.li-text-2 {
   background-image: url('checkmark .png');
   background-repeat: no-repeat;
   background-size: 20px 20px;
