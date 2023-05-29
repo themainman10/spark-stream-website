@@ -1,0 +1,312 @@
+/* header section */
+html, body {
+    overflow-x: hidden;
+  }
+  
+  body {
+    margin: 0;
+  }
+  a{
+    text-decoration: none;
+    color: #000;
+  }
+  /* header section */
+  
+
+
+
+
+
+
+
+
+
+
+
+.main-sec-background-main{
+    border-radius: 20px;
+    margin-bottom: 10%;
+}
+
+
+/* projects section */
+.porjects-section-container-1{
+    
+    margin-top: 5%;
+    /* border-radius: 10px;
+    border-style: solid;
+    border-color: #000; */
+    margin-left: 2.5%;
+  }
+  
+  
+  .sec-content-container{
+    display: flex;
+    text-align: center;
+  }
+  
+  .project-img-width-1{
+    width: 40%;
+    margin-top: 1.5%;
+    margin-left: 1.5%;
+    margin-right: 4%;
+    margin-bottom: 1.5%;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 20px;
+  }
+  
+  .project-img-width-1:hover {
+    transform: scale(1.06);
+  }
+  
+  .sec-project-header{
+    font-size: 30px;
+  }
+  
+  .sec-project-p{
+    font-size: 22px;
+  }
+  
+  .solid-line {
+    width: 1px;
+    height: 100px; /* Adjust the height as needed */
+    background-color: #000;
+  }
+  
+    /* Circular button styles */
+    .circular-button-2 {
+      background-color: #005bcd;
+      border: none;
+      color: white;
+      text-align: center;
+      font-size: 16px;
+      padding: 12px 24px;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: background-color 0.3s, transform 0.3s;
+      /* Positioning for the circular button */
+      margin-top: 5%;
+      margin-right: 2.5%;
+      }
+  
+      /* Circular button hover effect styles */
+      .circular-button-2:hover {
+      background-color: #0077dd;
+      transform: scale(1.1);
+      }
+  
+      /* Centering the button within the container */
+      .button-postion-1 {
+      text-align: center;
+      margin-bottom: 10%;
+      }
+  
+  /* projects section */
+  
+
+
+
+
+
+
+
+
+
+
+
+  /* project 1 */
+.porjects-section-container{
+    margin-top: 5%;
+    /* border-radius: 10px;
+    border-style: solid;
+    border-color: #000; */
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  
+  .sec-content-container-2{
+    display: flex;
+  }
+  
+  .project-img-width-2{
+    width: 40%;
+    margin-top: 1.5%;
+    margin-left: 1.5%;
+    margin-right: 4%;
+    margin-bottom: 1.5%;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 20px;
+  }
+  
+  .project-img-width-1:hover {
+    transform: scale(1.06);
+  }
+  
+  .sec-project-header{
+    font-size: 30px;
+  }
+  
+  .sec-project-p{
+    font-size: 22px;
+  }
+  
+  .solid-line {
+    width: 1px;
+    height: 100px; /* Adjust the height as needed */
+    background-color: #000;
+  }
+  
+    /* Circular button styles */
+    .circular-button-2 {
+      background-color: #005bcd;
+      border: none;
+      color: white;
+      text-align: center;
+      font-size: 16px;
+      padding: 12px 24px;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: background-color 0.3s, transform 0.3s;
+      /* Positioning for the circular button */
+      margin-top: 5%;
+      margin-right: 2.5%;
+      }
+  
+      /* Circular button hover effect styles */
+      .circular-button-2:hover {
+      background-color: #0077dd;
+      transform: scale(1.1);
+      }
+  
+      /* Centering the button within the container */
+      .button-postion-2 {
+      text-align: left;
+      margin-bottom: 10%;
+      }
+  
+  /* project 1 */
+  
+
+
+
+
+
+
+
+
+    /* project 1 */
+.porjects-section-container{
+    margin-top: 5%;
+    /* border-radius: 10px;
+    border-style: solid;
+    border-color: #000; */
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .sec-content-container-2{
+    display: flex;
+  }
+  
+  .project-img-width-3{
+    width: 40%;
+    margin-top: 1.5%;
+    margin-left: 1.5%;
+    margin-right: 4%;
+    margin-bottom: 1.5%;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 20px;
+  }
+  
+  .project-img-width-1:hover {
+    transform: scale(1.06);
+  }
+  
+  .sec-project-header{
+    font-size: 30px;
+  }
+  
+  .sec-project-p{
+    font-size: 22px;
+  }
+  
+  .solid-line {
+    width: 1px;
+    height: 100px; /* Adjust the height as needed */
+    background-color: #000;
+  }
+  
+    /* Circular button styles */
+    .circular-button-2 {
+      background-color: #005bcd;
+      border: none;
+      color: white;
+      text-align: center;
+      font-size: 16px;
+      padding: 12px 24px;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: background-color 0.3s, transform 0.3s;
+      /* Positioning for the circular button */
+      margin-top: 5%;
+      margin-right: 2.5%;
+      }
+  
+      /* Circular button hover effect styles */
+      .circular-button-2:hover {
+      background-color: #0077dd;
+      transform: scale(1.1);
+      }
+  
+      /* Centering the button within the container */
+      .button-postion-2 {
+      text-align: left;
+      margin-bottom: 10%;
+      }
+  
+  /* project 1 */
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  /* footer section  */
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .icon {
+    width: 30px;
+    height: auto;
+  }
+  
+  .copyright {
+    margin-top: 10px;
+  }
+
+/* footer section  */

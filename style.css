@@ -112,32 +112,6 @@ html, body {
 
 /* Media queries */
 
-@media screen and (max-width: 2000px) {
-  .header-text-1 { font-size: 45px; white-space: nowrap; margin-top: 60%; }
-  .header-text-2 { font-size: 55px; white-space: nowrap; }
-  .logo-header { width: 15%; }
-  .header-img{ width: 60%; margin-top: 30%;}
-  .header {
-    display: flex;
-    align-items: center;
-    padding: 0px;
-    margin-top: 0%;
-    margin-bottom: -20%;
-  }
-}
-
-@media screen and (max-width: 1350px) {
-  .header-text-1 { font-size: 45px; white-space: nowrap; }
-  .header-text-2 { font-size: 55px; white-space: nowrap; }
-  .logo-header { width: 20%; }
-  .header {
-    display: flex;
-    align-items: center;
-    padding: 0px;
-    margin-top: -5%;
-    margin-bottom: -20%;
-  }
-}
 
 @media screen and (max-width: 1200px) {
   .header-text-1 { font-size: 45px; white-space: nowrap; }
@@ -809,8 +783,77 @@ html, body {
 
 
 
+/* projects section */
+.porjects-section-container{
+  margin-top: 5%;
+  /* border-radius: 10px;
+  border-style: solid;
+  border-color: #000; */
+  margin-left: 10%;
+  margin-right: 10%;
+}
 
+.sec-content-container{
+  display: flex;
+}
 
+.project-img-width-1{
+  width: 40%;
+  margin-top: 1.5%;
+  margin-left: 1.5%;
+  margin-right: 4%;
+  margin-bottom: 1.5%;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 20px;
+}
+
+.project-img-width-1:hover {
+  transform: scale(1.06);
+}
+
+.sec-project-header{
+  font-size: 30px;
+}
+
+.sec-project-p{
+  font-size: 22px;
+}
+
+.solid-line {
+  width: 1px;
+  height: 100px; /* Adjust the height as needed */
+  background-color: #000;
+}
+
+  /* Circular button styles */
+  .circular-button-2 {
+    background-color: #005bcd;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 12px 24px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    /* Positioning for the circular button */
+    margin-top: 5%;
+    margin-right: 2.5%;
+    }
+
+    /* Circular button hover effect styles */
+    .circular-button-2:hover {
+    background-color: #0077dd;
+    transform: scale(1.1);
+    }
+
+    /* Centering the button within the container */
+    .button-postion-2 {
+    text-align: left;
+    margin-bottom: 10%;
+    }
+
+/* projects section */
 
 
 
