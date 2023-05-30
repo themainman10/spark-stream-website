@@ -5,34 +5,31 @@ html, body {
   
   body {
     margin: 0;
+    background-color: #E1EEEF;
+
   }
+
   a{
     text-decoration: none;
     color: #000;
   }
   /* header section */
-  
-
-
-
-
-
-
-
-
 
 
 
 .main-sec-background-main{
-    border-radius: 20px;
-    margin-bottom: 10%;
+    background-image: url('black background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
 }
+
+
 
 
 /* projects section */
 .porjects-section-container-1{
-    
-    margin-top: 5%;
     /* border-radius: 10px;
     border-style: solid;
     border-color: #000; */
@@ -59,12 +56,17 @@ html, body {
     transform: scale(1.06);
   }
   
-  .sec-project-header{
-    font-size: 30px;
+  .sec-project-header-1 h1{
+    font-size: 80px;
+    margin-top: 10%;
   }
   
-  .sec-project-p{
-    font-size: 22px;
+  .sec-project-p-1 p{
+    font-size: 25px;
+    font-weight: 200;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
   
   .solid-line {
@@ -102,7 +104,91 @@ html, body {
       }
   
   /* projects section */
+
+
+  /* project section media */
+
+  @media screen and (max-width: 900px) {
+    .project-img-width-1 {
+      width: 60%;
+    }
   
+    .sec-project-header-1 h1 {
+      font-size: 60px;
+    }
+  
+    .sec-project-p-1 p {
+      font-size: 20px;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .project-img-width-1 {
+      width: 70%;
+    }
+  
+    .sec-project-header-1 h1 {
+      font-size: 50px;
+    }
+  
+    .sec-project-p-1 p {
+      font-size: 18px;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .project-img-width-1 {
+      width: 80%;
+    }
+  
+    .sec-project-header-1 h1 {
+      font-size: 40px;
+    }
+  
+    .sec-project-p-1 p {
+      font-size: 16px;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .project-img-width-1 {
+      width: 90%;
+    }
+  
+    .sec-project-header-1 h1 {
+      font-size: 30px;
+    }
+  
+    .sec-project-p-1 p {
+      font-size: 14px;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .project-img-width-1 {
+      width: 95%;
+    }
+  
+    .sec-project-header-1 h1 {
+      font-size: 24px;
+    }
+  
+    .sec-project-p-1 p {
+      font-size: 12px;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  }
+  
+    /* project section media */
 
 
 
@@ -114,7 +200,11 @@ html, body {
 
 
 
-  /* project 1 */
+
+
+
+
+  /* project 2 */
 .porjects-section-container{
     margin-top: 5%;
     /* border-radius: 10px;
@@ -122,6 +212,7 @@ html, body {
     border-color: #000; */
     margin-left: 10%;
     margin-right: 10%;
+
   }
 
   
@@ -139,7 +230,7 @@ html, body {
     border-radius: 20px;
   }
   
-  .project-img-width-1:hover {
+  .project-img-width-2:hover {
     transform: scale(1.06);
   }
   
@@ -185,8 +276,7 @@ html, body {
       margin-bottom: 10%;
       }
   
-  /* project 1 */
-  
+  /* project 2 */
 
 
 
@@ -195,14 +285,15 @@ html, body {
 
 
 
-    /* project 1 */
-.porjects-section-container{
+    /* project 3 */
+.porjects-section-container-3{
     margin-top: 5%;
     /* border-radius: 10px;
     border-style: solid;
     border-color: #000; */
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 2.5%;
   }
   
   .sec-content-container-2{
@@ -219,7 +310,7 @@ html, body {
     border-radius: 20px;
   }
   
-  .project-img-width-1:hover {
+  .project-img-width-:hover {
     transform: scale(1.06);
   }
   
@@ -238,7 +329,7 @@ html, body {
   }
   
     /* Circular button styles */
-    .circular-button-2 {
+    .circular-button-3 {
       background-color: #005bcd;
       border: none;
       color: white;
@@ -254,7 +345,7 @@ html, body {
       }
   
       /* Circular button hover effect styles */
-      .circular-button-2:hover {
+      .circular-button-3:hover {
       background-color: #0077dd;
       transform: scale(1.1);
       }
@@ -265,12 +356,83 @@ html, body {
       margin-bottom: 10%;
       }
   
-  /* project 1 */
+  /* project 3 */
   
 
 
 
-
+  /* project 2 media section */
+  @media screen and (max-width: 900px) {
+    .project-img-width-2 {
+      width: 50%;
+    }
+  
+    .sec-project-header {
+      font-size: 28px;
+    }
+  
+    .sec-project-p {
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .project-img-width-2 {
+      width: 60%;
+    }
+  
+    .sec-project-header {
+      font-size: 26px;
+    }
+  
+    .sec-project-p {
+      font-size: 18px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .project-img-width-2 {
+      width: 70%;
+    }
+  
+    .sec-project-header {
+      font-size: 24px;
+    }
+  
+    .sec-project-p {
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .project-img-width-2 {
+      width: 80%;
+    }
+  
+    .sec-project-header {
+      font-size: 22px;
+    }
+  
+    .sec-project-p {
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .project-img-width-2 {
+      width: 90%;
+    }
+  
+    .sec-project-header {
+      font-size: 20px;
+    }
+  
+    .sec-project-p {
+      font-size: 12px;
+    }
+  }
+  
+  /* project 2 media section */
 
 
 
@@ -284,6 +446,7 @@ html, body {
   footer {
     text-align: center;
     padding: 20px;
+    background-color: white;
   }
   
   .contact-info {
