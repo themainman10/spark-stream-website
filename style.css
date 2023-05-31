@@ -384,7 +384,7 @@ html, body {
 }
 
 .blue-square {
-  background-color: blue;
+  background-color: #0077dd;
   width: 400px;
   height: 400px;
   display: flex;
@@ -416,6 +416,7 @@ html, body {
 
 .sec-3-icons{
   width: 40%;
+  margin-bottom: -5%;
 }
 
 
@@ -684,6 +685,8 @@ html, body {
   width: 50%;
   margin-top: 2.5%;
   margin-bottom: 2.5%;
+  text-align: center;
+  color: white;
 }
 
 
@@ -702,6 +705,7 @@ html, body {
 .sec-5-img-headshot{
   width: 30%;
   border-radius: 50%;
+  margin-top: 5%;
 }
 
 .sec-5-img-5-postioning{

@@ -108,6 +108,14 @@ html, body {
 
   /* project section media */
 
+  @media screen and (max-width: 1250px) {
+    .porjects-section-container{
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+ 
+  }
+
   @media screen and (max-width: 900px) {
     .project-img-width-1 {
       width: 60%;
@@ -122,6 +130,25 @@ html, body {
       margin-left: 5%;
       margin-right: 5%;
     }
+
+    .porjects-section-container{
+      margin-left: 2.5%;
+      margin-right: 2.5%;
+    }
+
+    .porjects-section-container{
+      margin-left: 0%;
+      margin-right: 0%;
+    }
+    .sec-project-header{
+      font-size: 20px;
+    }
+    
+    .sec-project-p{
+      font-size: 20px;
+    }
+
+    
   }
   
   @media screen and (max-width: 768px) {
@@ -204,235 +231,185 @@ html, body {
 
 
 
-  /* project 2 */
-.porjects-section-container{
-    margin-top: 5%;
-    /* border-radius: 10px;
-    border-style: solid;
-    border-color: #000; */
-    margin-left: 10%;
-    margin-right: 10%;
+/* Project 2 */
+.porjects-section-container {
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
 
-  }
+.sec-content-container-2 {
+  display: flex;
+}
 
-  
-  .sec-content-container-2{
-    display: flex;
-  }
-  
-  .project-img-width-2{
+.project-img-width-2 {
+  width: 40%;
+  margin-top: 1.5%;
+  margin-left: 1.5%;
+  margin-right: 4%;
+  margin-bottom: 1.5%;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 20px;
+}
+
+.project-img-width-2:hover {
+  transform: scale(1.06);
+}
+
+.sec-project-header {
+  font-size: 30px;
+}
+
+.sec-project-p {
+  font-size: 22px;
+}
+
+.circular-button-2 {
+  background-color: #005bcd;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  padding: 12px 24px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  margin-top: 5%;
+  margin-right: 2.5%;
+}
+
+.circular-button-2:hover {
+  background-color: #0077dd;
+  transform: scale(1.1);
+}
+
+.button-postion-2 {
+  text-align: left;
+  margin-bottom: 10%;
+}
+
+/* Project 3 */
+.porjects-section-container-3 {
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 2.5%;
+}
+
+.project-img-width-3 {
+  width: 40%;
+  margin-top: 1.5%;
+  margin-left: 1.5%;
+  margin-right: 4%;
+  margin-bottom: 1.5%;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 20px;
+}
+
+.project-img-width-3:hover {
+  transform: scale(1.06);
+}
+
+/* Circular button styles */
+.circular-button-3 {
+  background-color: #005bcd;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  padding: 12px 24px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  margin-top: 5%;
+  margin-right: 2.5%;
+}
+
+.circular-button-3:hover {
+  background-color: #0077dd;
+  transform: scale(1.1);
+}
+
+.button-postion-2 {
+  text-align: left;
+  margin-bottom: 10%;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 1200px) {
+  .project-img-width-2 {
     width: 40%;
-    margin-top: 1.5%;
-    margin-left: 1.5%;
-    margin-right: 4%;
-    margin-bottom: 1.5%;
-    transition: transform 0.3s ease-in-out;
-    border-radius: 20px;
   }
-  
-  .project-img-width-2:hover {
-    transform: scale(1.06);
+  .sec-project-header h1{
+    font-size: 40px;
   }
-  
-  .sec-project-header{
+  .sec-project-p p{
+    font-size: 25px;
+  }
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 1000px) {
+  .project-img-width-2 {
+    width: 40%;
+  }
+  .sec-project-header h1{
+    font-size: 28px;
+  }
+  .sec-project-p p{
+    font-size: 20px;
+  }
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 900px) {
+  .sec-project-header {
+    font-size: 28px;
+  }
+  .sec-project-p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sec-content-container{
+    flex-direction: column;
+  }
+
+  .sec-content-container-2 {
+    flex-direction: column;
+  }
+  .project-img-width-2 {
+    width: 100%;
+  }
+  .sec-project-header h1{
     font-size: 30px;
   }
-  
-  .sec-project-p{
-    font-size: 22px;
+  .sec-project-p p{
+    font-size: 20px;
   }
-  
-  .solid-line {
-    width: 1px;
-    height: 100px; /* Adjust the height as needed */
-    background-color: #000;
-  }
-  
-    /* Circular button styles */
-    .circular-button-2 {
-      background-color: #005bcd;
-      border: none;
-      color: white;
-      text-align: center;
-      font-size: 16px;
-      padding: 12px 24px;
-      border-radius: 50px;
-      cursor: pointer;
-      transition: background-color 0.3s, transform 0.3s;
-      /* Positioning for the circular button */
-      margin-top: 5%;
-      margin-right: 2.5%;
-      }
-  
-      /* Circular button hover effect styles */
-      .circular-button-2:hover {
-      background-color: #0077dd;
-      transform: scale(1.1);
-      }
-  
-      /* Centering the button within the container */
-      .button-postion-2 {
-      text-align: left;
-      margin-bottom: 10%;
-      }
-  
-  /* project 2 */
+}
 
 
+@media screen and (max-width: 480px) {
+.porjects-section-container {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.project-img-width-2 {
+  width: 100%;
+}
+.sec-project-header {
+  font-size: 20px;
+}
+.sec-project-p {
+  font-size: 14px;
+}
+}
+
+/* Other sections or styles go here */
 
 
-
-
-
-
-    /* project 3 */
-.porjects-section-container-3{
-    margin-top: 5%;
-    /* border-radius: 10px;
-    border-style: solid;
-    border-color: #000; */
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 2.5%;
-  }
-  
-  .sec-content-container-2{
-    display: flex;
-  }
-  
-  .project-img-width-3{
-    width: 40%;
-    margin-top: 1.5%;
-    margin-left: 1.5%;
-    margin-right: 4%;
-    margin-bottom: 1.5%;
-    transition: transform 0.3s ease-in-out;
-    border-radius: 20px;
-  }
-  
-  .project-img-width-:hover {
-    transform: scale(1.06);
-  }
-  
-  .sec-project-header{
-    font-size: 30px;
-  }
-  
-  .sec-project-p{
-    font-size: 22px;
-  }
-  
-  .solid-line {
-    width: 1px;
-    height: 100px; /* Adjust the height as needed */
-    background-color: #000;
-  }
-  
-    /* Circular button styles */
-    .circular-button-3 {
-      background-color: #005bcd;
-      border: none;
-      color: white;
-      text-align: center;
-      font-size: 16px;
-      padding: 12px 24px;
-      border-radius: 50px;
-      cursor: pointer;
-      transition: background-color 0.3s, transform 0.3s;
-      /* Positioning for the circular button */
-      margin-top: 5%;
-      margin-right: 2.5%;
-      }
-  
-      /* Circular button hover effect styles */
-      .circular-button-3:hover {
-      background-color: #0077dd;
-      transform: scale(1.1);
-      }
-  
-      /* Centering the button within the container */
-      .button-postion-2 {
-      text-align: left;
-      margin-bottom: 10%;
-      }
-  
-  /* project 3 */
-  
-
-
-
-  /* project 2 media section */
-  @media screen and (max-width: 900px) {
-    .project-img-width-2 {
-      width: 50%;
-    }
-  
-    .sec-project-header {
-      font-size: 28px;
-    }
-  
-    .sec-project-p {
-      font-size: 20px;
-    }
-  }
-  
-  @media screen and (max-width: 768px) {
-    .project-img-width-2 {
-      width: 60%;
-    }
-  
-    .sec-project-header {
-      font-size: 26px;
-    }
-  
-    .sec-project-p {
-      font-size: 18px;
-    }
-  }
-  
-  @media screen and (max-width: 600px) {
-    .project-img-width-2 {
-      width: 70%;
-    }
-  
-    .sec-project-header {
-      font-size: 24px;
-    }
-  
-    .sec-project-p {
-      font-size: 16px;
-    }
-  }
-  
-  @media screen and (max-width: 480px) {
-    .project-img-width-2 {
-      width: 80%;
-    }
-  
-    .sec-project-header {
-      font-size: 22px;
-    }
-  
-    .sec-project-p {
-      font-size: 14px;
-    }
-  }
-  
-  @media screen and (max-width: 320px) {
-    .project-img-width-2 {
-      width: 90%;
-    }
-  
-    .sec-project-header {
-      font-size: 20px;
-    }
-  
-    .sec-project-p {
-      font-size: 12px;
-    }
-  }
-  
-  /* project 2 media section */
 
 
 
