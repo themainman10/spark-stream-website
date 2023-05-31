@@ -418,35 +418,71 @@ html, body {
 
 
   
-  /* footer section  */
-  
-  footer {
-    text-align: center;
-    padding: 20px;
-    background-color: white;
-  }
-  
-  .contact-info {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin-bottom: 20px;
-  }
-  
-  .social-icons {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 20px;
-  }
-  
-  .icon {
-    width: 30px;
-    height: auto;
-  }
-  
-  .copyright {
-    margin-top: 10px;
-  }
-
 /* footer section  */
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.icon {
+  width: 30px;
+  height: auto;
+}
+
+.copyright {
+  margin-top: 10px;
+}
+
+
+/* Media queries */
+@media screen and (max-width: 1200px) {
+  .contact-info { gap: 20px; }
+  .social-icons { gap: 8px; }
+}
+
+@media screen and (max-width: 1024px) {
+  .icon { width: 28px; }
+}
+
+@media screen and (max-width: 900px) {
+  .icon { width: 26px; }
+}
+
+@media screen and (max-width: 768px) {
+  .contact-info > div { margin-bottom: 10px; }
+  .icon { width: 24px; }
+}
+
+@media screen and (max-width: 600px) {
+  .icon { width: 22px; }
+}
+
+@media screen and (max-width: 480px) {
+  .icon { width: 20px; }
+}
+
+@media screen and (max-width: 320px) {
+  .icon { width: 18px; }
+  .contact-info {
+    flex-direction: column;
+  }
+}
+
+
+
+/* footert section  */
